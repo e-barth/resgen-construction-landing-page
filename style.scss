@@ -103,7 +103,7 @@ footer {
   img {
     height: 22px;
     &:hover {
-      transform: scale(1.05);      
+      transform: scale(1.05);
     }
   }
   p {
@@ -150,5 +150,12 @@ footer {
   }
   footer {
     font-size: .6rem;
+  }
+}
+
+@media screen and (max-height: 540px) {
+  .main-content {
+    transform: scale(0.8);
+    padding: 0 0 20px 0;
   }
 }
