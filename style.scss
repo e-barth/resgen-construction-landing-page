@@ -102,6 +102,9 @@ footer {
   }
   img {
     height: 22px;
+    &:hover {
+      transform: scale(1.05);      
+    }
   }
   p {
     color: #028e94;
